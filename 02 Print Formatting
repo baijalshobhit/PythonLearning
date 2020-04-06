@@ -1,0 +1,25 @@
+
+## General Printing Formats
+	• print('First: %s, Second: %5.2f, Third: %r' %('hi!',3.1415,'bye!'))                # Old way of printing
+	
+	• print("This is an {} of {}".format('example','.format'))                           # using .format
+	• print('The {q} {b} {f}'.format(f='fox',b='brown',q='quick'))                       # using variables with .format
+	• print('The {2} {1} {0}'.format('fox','brown','quick'))                             # using order to print
+	• result=0.1287001287001287
+	print('the result is {r:1.3f}'.format(r=result))                                     # specifying precision
+	
+	• print(f"My 10 character, four decimal number is:{num:10.4f}")                      # using 'f' string 
+	• print(f"His name is {name}")                                                                   
+	
+## Specifying Width of fields
+	• print('{0:8} | {1:9}'.format('Fruit', 'Quantity'))
+	• print('{0:8} | {1:9}'.format('Apples', 3.))
+	• print('{0:8} | {1:9}'.format('Oranges', 10))
+
+## Specifying alignment
+	• print('{0:<8} | {1:^8} | {2:>8}'.format('Left','Center','Right'))
+	• print('{0:<8} | {1:^8} | {2:>8}'.format(11,22,33))
+
+## Specifying Alignment and filler characters
+	• print('{0:=<8} | {1:-^8} | {2:.>8}'.format('Left','Center','Right'))
+	• print('{0:=<8} | {1:-^8} | {2:.>8}'.format(11,22,33))
