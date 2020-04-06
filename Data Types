@@ -1,0 +1,27 @@
+Data Types
+	- int (for integer)
+	- float
+	- str (for string)
+	- list
+	- tuple
+	- dict (for dictionary)
+	- set
+	- bool (for Boolean True/False)
+
+
+Mathematical Operations
++ - * / % ** //(floor operator)
+
+Complex Data Types
+String 
+	- ordered sequence of characters
+	- immutable
+List [] 
+	- ordered (i.e. we can use index) sequence of objects
+	- mutable
+Tuples ()
+	- Same as list but immutable
+Set 
+	- Unordered unique data
+Dictionaries  {}
+	- Unordered key value pairs
