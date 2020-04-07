@@ -1,5 +1,5 @@
 ## Data Types
-	- int (for integer)
+	- int (for integer)
 	- float
 	- str (for string)
 	- list
